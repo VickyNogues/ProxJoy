@@ -48,7 +48,7 @@ for column in data_columns:
     depth_offset = extract_depth(column)
     y = np.array(df[column])  
     # Reduce non-zero values to 10% of their original values to adjust the curves better:
-    y = y*0.01 #this number can be changed if you want another adjustment
+    y = y*0.1 #this number can be changed if you want another adjustment
     y = y - depth_offset  # Adjust the curve between current and previous depth        
     x = df["um"]
     ax.plot(x, y, label=column)  
