@@ -1,0 +1,14 @@
+For using the "Proxjoy" code, dataset must have certain columns from left to right:
+Column "um" = this column contains the grainsize diameter particle range. 
+Then, columns corresponding to each sample, for wich the column titles must contain the depth of the sample
+
+Example:
+um | -125 SAMPLE 1  | -130 SAMPLE 2 |  and so and so..
+
+Tip:
+If you are working on an excel sheet, beware of typing ' before the minus (-) and the depth value, so that you have no problem with excel 
+thinking that you´re trying to type a formula.
+
+You can look at the "ProxJoy_EXAMPLE.cvs"  file, attached to the main menú.
+
+Have a nice coding :)
